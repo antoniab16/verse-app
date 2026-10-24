@@ -1,11 +1,13 @@
 {
   "expo": {
-    "name": "verse-app",
-    "slug": "verse-app",
+    "name": "Verse",
+    "slug": "verse",
+    "scheme": "verse",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router", "expo-sharing"],
     "ios": {
       "supportsTablet": true
     },
@@ -20,6 +22,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sharing"
+    ]
   }
 }
